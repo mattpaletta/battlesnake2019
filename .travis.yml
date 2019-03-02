@@ -10,7 +10,7 @@ install:
   - pip install mypy
   - pip install -r requirements.txt
   - git clone https://github.com/sdevalapurkar/battlesnake-test-suite.git
-  - cd battlesnake-test-suite && npm install
+  - cd battlesnake-test-suite && npm install --save-dev mocha chai && npm install
 
 script:
   - python -m battlesnake &
