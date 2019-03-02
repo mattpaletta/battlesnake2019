@@ -6,7 +6,7 @@ python:
   - "3.6"
 
 install:
-  - apt-get install npm
+  - sudo apt-get install npm
   - pip install mypy
   - pip install -r requirements.txt
   - git clone git clone https://github.com/sdevalapurkar/battlesnake-test-suite.git
